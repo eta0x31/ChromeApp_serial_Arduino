@@ -1,0 +1,21 @@
+{
+  "name": "Serial Arduino",
+  "version": "1.0",
+  "manifest_version": 2,
+  "minimum_chrome_version": "33",
+  "description": "Serial to Arduino",
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+
+  "icons": { 
+    "32": "img/icon.png"  
+  },
+
+  "permissions": [
+    "serial"
+  ]
+}

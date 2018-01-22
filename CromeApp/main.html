@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <label>
+      <select id="ports"></select>
+      <button type="button" id="connect">Connect</button>
+    </label>
+
+    <label>
+      Motor 1 : <input id="motor1" type="range" min="0" max="180" value="90">
+      <br><br>
+      Motor 2 : <input id="motor2" type="range" min="0" max="180" value="90">
+    </label>
+
+    <label>
+      Motor 1 :<span id="output_motor1">0</span>
+      <br><br>
+      Motor 2 :<span id="output_motor2">0</span>
+    </label>
+  </div>
+</body>
+</html>
